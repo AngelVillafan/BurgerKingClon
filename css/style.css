@@ -1,0 +1,423 @@
+@font-face {
+    font-family: FlameSans;
+    src: url(/assets/FlameSans.otf);
+}
+@font-face {
+    font-family: FlameSansRegular;
+    src: url(/assets/FlameRegular.otf);
+}
+@font-face {
+    font-family: FlameSansCondensed;
+    src: url(/assets/FlameCondensed.otf);
+}
+@font-face {
+    font-family: FlameSansBold;
+    src: url(/assets/FlameBold.otf);
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color:#f5ebdc;
+}
+.banner{
+    background-image: url(https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/3/2560x1600-clean.jpg);
+    background-position: center 40%;
+    min-height: 70vh;
+    max-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;
+    display: block;
+}
+
+.navegacion{
+    background-color: #f5ebdc;
+    display: flex;
+    align-items: center;
+    height: 72px;
+    width: 100%;
+    border-bottom: 2px solid #d7c7b5;
+    position:-webkit-sticky;
+}
+
+.navegacionelementos{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 8vw;
+}
+
+.navegacionelementos img{
+    height: 48px;
+    width: 46px;
+    margin: 0 20px 0 0;
+}
+ .navegacionelementos a{
+    font-family: FlameSansRegular;
+    text-decoration: none;
+    color: #502314;
+    font-size: 17px;
+    margin: 0 12px;
+ }
+
+ .primera{
+    margin: 0 12px 0 0;
+ }
+
+ .linksmall{
+    color: #d62300;
+    font-family: FlameSans;
+    font-size: 14px;
+    padding: 8px 0;
+    cursor: hand;
+
+ }
+
+ .margen{
+    width: 60%;
+    min-width: 50%;
+    max-width: 50%;
+    margin: auto;
+ }
+
+ .textotitulo{
+    font-family: FlameSansRegular;
+    font-weight: 300;
+    font-size: 26px;
+    color: #502314;
+
+ }
+ 
+ .img{
+    width: 96%;
+    height: 100%;
+    max-height: 240px;
+    border-radius: 18px;
+    margin: 0;
+ }
+ .img:hover{
+    box-shadow: 0px 5px 10px #b3b3b3;
+
+ }
+ .textogral{
+    font-family: FlameSans;
+    font-size: 17px;
+    letter-spacing: -.41px;
+    color: #502314;
+
+ }
+
+ .cupones{
+    display: grid;
+ }
+
+
+
+ .cuponesinf{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 12px 0 0;
+ }
+
+ .ubi{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #efe0cc;
+    border-radius: 18px;
+    padding: 40px 0 40px 0;
+ }
+
+
+ .separacionsup{
+    margin-top: 50px;
+
+ }
+
+ .parteizq{
+    margin: 0px 0 0 60px;
+ }
+ .imgubi{
+    width: auto;
+    height: 100%;
+    min-height: 180px;
+    max-height: 180px;
+    margin-right: 30px;
+ }
+
+ .inputtext{
+    height: 50px;
+    min-width: 400px;
+    border-radius: 5px;
+    border-color: #f2f2f3;
+    border-width: 0;
+    padding-right: 25px;
+    text-align: center center;
+    font-family: FlameSans;
+
+ }
+
+ .parteroja{
+    width: 100%;
+    background: url(https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/bk-home-delivery-1_comp.jpg) no-repeat;
+    background-position: 100% 0;
+    background-size: 32%;
+    background-color: #d72300;
+    height: 80vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.domcontenedor{
+    background-color: #ffffff;
+    border-radius: 18px;
+    height: 280px;
+    width: 450px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.botonenvio{
+    background-color: #d72300;
+    border-width: 0;
+    height: 15%;
+    width: 90%;
+    border-radius: 45px;
+    align-self: center;
+    font-family: FlameSansRegular;
+    color: white;
+    font-size: 18px;
+}
+
+.domcontenedor div, .domcontenedor h2, .domcontenedor p{
+    width: 90%;
+    align-self: center;
+}
+.domicilio{
+    height: 45%;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.appbk{
+height: 55%;
+}
+.envios{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.appenvio{
+    width: 50%;
+    height: 65px;
+    margin: 0 10px 20px 0;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 10px lightgray;
+
+    
+}
+
+.envioselect{
+    border-color: red;
+    border-width: 2px;
+    border-style:double;
+}
+.appbk{
+display: flex;
+}
+.telefono{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.telefono img{
+    width: auto;
+    height: 95%;
+}
+.descargaapp{
+    width: 100%;
+}
+.textoh1{
+font-family: FlameSansRegular;
+font-size: 55px;
+margin-left: 50px;
+width: 92%;
+color: white;
+}
+.applecopy{
+color: white;
+font-size: 11px;
+width: 90%;
+margin-left: 50px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.appstores img{
+    height: 50px;
+    width: auto;
+}
+.appstores{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.piepagina{
+    background-color: #502314;
+}
+
+.piesuperior{
+border-bottom: .2px solid gray;
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+}
+
+.piesuperior img{
+
+    align-self: flex-start;
+}
+.blanco{
+    color: white;
+}
+.pieinferior{
+    display: flex;
+    align-content:center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.derechosreservados{
+    font-family: FlameSans;
+    font-size: 17px;
+    color: white;
+
+ }
+ .pieinferior p{
+    padding: 0;
+    margin: 0;
+ }
+ .redessociales img{
+    margin-left: 20px;
+ }
+ .hamburguesa{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    margin: 10px;
+ }
+ .hamburguesa img{
+    height: auto;
+    width: 300px;
+    max-height: 250px;
+ }
+.parrilla{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cuponessup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .hamburguesa h2{
+    display: flex;
+    justify-content: center;
+ }
+ .ultimo{
+    margin-bottom: 100px;
+ }
+ a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+ }
+ .pideaqui{
+    background: url(https://s3-sa-east-1.amazonaws.com/api-lac.production/app_brandings/brand_3/Images/home_background.png);
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .gustaria{
+    background-color: #efe2cf;
+    border-radius: 18px;
+    width: 450px;
+    margin-top: 50px;
+    margin-bottom: 800px;
+    box-shadow: 0 5px 15px #d3d3d3;
+    padding: 10px 20px;
+ }
+ .gustariaelem{
+    display: flex;
+    margin: 10px;
+    background-color: #f5ebdc;
+    padding: 10px;
+    border-radius: 15px;
+ }
+ .gustariaelem img{
+background-color: #d62300;
+border-radius: 50px;
+width: 50px;
+height: 50px;
+margin-right: 10px;
+ }
+
+ .dompage{
+    background: transparent;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+ }
+ .maindelivery{
+    height: 100vh;
+ }
+ .ubipage{
+    display: flex;
+    justify-content: left;
+ }
+ .ubipage p{
+    margin-right: 10px;
+ }
+ .custom{
+    color: #502314;
+    text-align: center;
+    font-size: 45px;
+ }
+ .item img{
+    border-radius: 50px;
+    height: auto;
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+margin-bottom: 100px;
+ }
+
+.item p{
+    width: 30%;
+    line-height: 1.5;
+}

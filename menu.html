@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="data:image/vnd.microsoft.icon;base64,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"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>MENU - BURGER KING</title>
+  </head>
+  <body>
+    <nav class="navegacion">
+      <div class="navegacionelementos margen">
+        <a href="index.html">
+          <img
+            src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/03/Burger-King-logo.svg"
+          />
+        </a>
+        <a href="pideaqui.html" class="primera">Pide Aquí</a>
+        <a href="menu.html">Menú</a>
+        <a>Cupones</a>
+        <a>Restaurantes</a>
+        <a href="delivery.html">Delivery</a>
+        <a>Novedades</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="margen ubipage">
+        <p class="linksmall cafe">Home</p>
+        <p class="linksmall cafe">/</p>
+        <p class="linksmall">Menu</p>
+      </div>
+      <div class="margen">
+        <div class="cuponessup">
+          <h2 class="textotitulo">A la parrilla</h2>
+          <a class="linksmall">Ver todo</a>
+        </div>
+        <div class="parrilla">
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/Fans-Web.png"
+            />
+            <h2 class="textotitulo">¡Fans King!</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_01_GuacamoleCrunchKing-1-1.png"
+            />
+            <h2 class="textotitulo">Guacamole Crunch King</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_02_Whopper-1-1.png"
+            />
+            <h2 class="textotitulo">WHOPPER</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_03_WhopperConQueso-1-1.png"
+            />
+            <h2 class="textotitulo">WHOPPER con Queso</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/bk-whopper-jr-1200x800-1.png"
+            />
+            <h2 class="textotitulo">WHOPPER Jr.</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/bk-whopper-doble-1200x800-1.png"
+            />
+            <h2 class="textotitulo">WHOPPER Doble</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/bk-whopper-vegetal-1200x800-1.png"
+            />
+            <h2 class="textotitulo">WHOPPER Vegetal</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_09_WhopperAngry-1-1.png"
+            />
+            <h2 class="textotitulo">WHOPPER Angry</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_08_WhopperBBQ-1-1.png"
+            />
+            <h2 class="textotitulo">WHOPPER BBQ</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/1200x800_14_BigKing-1-1-min.png"
+            />
+            <h2 class="textotitulo">BIG KING</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/1200x800_11_BaconKing-1-1_comp-min.png"
+            />
+            <h2 class="textotitulo">Bacon King</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_15_LongRodeo-1-1.png"
+            />
+            <h2 class="textotitulo">Long Rodeo</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_13_XTreme-1-1.png"
+            />
+            <h2 class="textotitulo">X-TREME</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_04_StackerKing-1-1.png"
+            />
+            <h2 class="textotitulo">Stacker King</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="margen">
+        <div class="cuponessup">
+          <h2 class="textotitulo">Bebidas y Café</h2>
+          <a class="linksmall">Ver todo</a>
+        </div>
+        <div class="parrilla">
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_05_Jugo-1-1.png"
+              alt=""
+            />
+            <h2 class="textotitulo">Jugo de naranja</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/burgerking-cafe-min.png"
+              alt=""
+            />
+            <h2 class="textotitulo">Café Americano</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/vaso-Pepsi-1280x920px.png"
+              alt=""
+            />
+            <h2 class="textotitulo">Pepsi</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/burgerking-agua-epura.png"
+              alt=""
+            />
+            <h2 class="textotitulo">Epura</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="ultimo margen">
+        <div class="cuponessup">
+          <h2 class="textotitulo">Complementos</h2>
+          <a class="linksmall">Ver todo</a>
+        </div>
+        <div class="parrilla">
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_07_PapasHashbrown-1-1.png"
+              alt=""
+            />
+            <h2 class="textotitulo">Papas Hashbrown</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/bk-aros-de-cebolla-1200x800-1_comp.png"
+              alt=""
+            />
+            <h2 class="textotitulo">Aros de Cebolla</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/1200x800_04_PapasALaFrancesa-1-2.png"
+              alt=""
+            />
+            <h2 class="textotitulo">Papas a la Francesa</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/Papas-Supremas-Web-1280x920-1.png"
+              alt=""
+            />
+            <h2 class="textotitulo">Papas Supremas</h2>
+          </div>
+          <div class="hamburguesa">
+            <img
+              src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/Papas-Supremas-Web-1280x920-1.png"
+              alt=""
+            />
+            <h2 class="textotitulo">PAPAS SUPRERMAS #AtuManera</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="piepagina">
+      <div class="piesuperior margen">
+        <img
+          src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/Logo-3.svg"
+          alt=""
+        />
+        <div>
+          <h2 class="textotitulo blanco">Información</h2>
+          <a><p class="textogral blanco">Sitemap HTML</p></a>
+          <a><p class="textogral blanco">Restaurantes</p></a>
+          <a><p class="textogral blanco">Contáctanos</p></a>
+          <a><p class="textogral blanco">Preguntas frecuentes</p></a>
+          <a><p class="textogral blanco">Aviso de privacidad Integral</p></a>
+        </div>
+      </div>
+
+      <div class="pieinferior margen">
+        <p class="derechosreservados">
+          TM & 2022 Burger King Corporation. All Rights reserved - Angel
+          Villafan Inc.
+        </p>
+
+        <div class="redessociales">
+          <img
+            src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/Facebook.svg"
+            alt=""
+          />
+          <img
+            src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/Twitter.svg"
+            alt=""
+          />
+          <img
+            src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/Youtube.svg"
+            alt=""
+          />
+          <img
+            src="https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/wordpress/web/app/uploads/sites/3/2021/02/Instagram.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
